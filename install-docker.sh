@@ -18,7 +18,7 @@ case $PKG_MANAGER in
 				        docker-common \
 				        container-selinux \
 				        docker-selinux \
-				        docker-engine
+				        docker-engine || true
         rm -f 	/etc/yum.repos.d/docker-ce.repo \
 		        /etc/yum.repos.d/docker-main.repo
     ;;
@@ -29,7 +29,7 @@ case $PKG_MANAGER in
 				            docker-common \
 				            container-selinux \
 				            docker-selinux \
-				            docker-engine
+				            docker-engine || true
         rm -f 	/etc/apt/sources.list.d/docker.list
         add-apt-repository -r \
                "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
