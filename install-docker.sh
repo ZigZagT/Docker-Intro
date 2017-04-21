@@ -24,12 +24,12 @@ case $PKG_MANAGER in
     ;;
     apt-get)
         apt-get -y install apt-transport-https ca-certificates curl software-properties-common
-        apt-get --ignore-missing purge -y docker-ce \
-				            docker \
-				            docker-common \
-				            container-selinux \
-				            docker-selinux \
-				            docker-engine || true
+        dpkg --remove   docker-ce \
+				        docker \
+                        docker-common \
+                        container-selinux \
+                        docker-selinux \
+                        docker-engine || true
         rm -f 	/etc/apt/sources.list.d/docker.list
         add-apt-repository -r \
                "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
