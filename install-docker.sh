@@ -1,28 +1,64 @@
 #!/usr/bin/env bash
 
-# install nacessary packages
-yum install -y yum-utils screen
+set -e
+if [ -n "$(command -v yum)" ]; then
+    PKG_MANAGER=yum
+elif [ -n "$(command -v apt-get)" ]; then
+    PKG_MANAGER=apt-get
+else
+    echo "no package manager found, are you a Martian?"
+    exit 1
+fi
 
-# uninstall docker
-yum remove -y 	docker-ce \
-				docker \
-				docker-common \
-				container-selinux \
-				docker-selinux \
-				docker-engine
-rm -f 	/etc/yum.repos.d/docker-ce.repo \
-		/etc/yum.repos.d/docker-main.repo
+case $PKG_MANAGER in
+    yum)
+        yum install -y yum-utils screen
+        yum remove -y 	docker-ce \
+				        docker \
+				        docker-common \
+				        container-selinux \
+				        docker-selinux \
+				        docker-engine
+        rm -f 	/etc/yum.repos.d/docker-ce.repo \
+		        /etc/yum.repos.d/docker-main.repo
+    ;;
+    apt-get)
+        apt-get -y install apt-transport-https ca-certificates curl
+        apt-get remove -y   docker-ce \
+				            docker \
+				            docker-common \
+				            container-selinux \
+				            docker-selinux \
+				            docker-engine
+        rm -f 	/etc/apt/sources.list.d/docker.list
+        add-apt-repository -r \
+               "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+               $(lsb_release -cs) \
+               stable"
+    ;;
+esac
 
 # install docker
 offical_auto_install() {
 	curl -sSL https://get.docker.com/ | sh
 }
 official_manual_install() {
-	yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-	echo verify GPG key: Docker CE	060A 61C5 1B55 8A7F 742B 77AA C52F EB6B 621E 9F35
-	yum makecache fast
-	yum -y install docker-ce
-
+    case $PKG_MANAGER in
+        yum)
+            yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+            echo verify GPG key: Docker CE	060A 61C5 1B55 8A7F 742B 77AA C52F EB6B 621E 9F35
+            yum makecache fast
+            yum -y install docker-ce
+        ;;
+        apt-get)
+            curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+            sudo add-apt-repository \
+               "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+               $(lsb_release -cs) \
+               stable"
+            apt-get -y install docker-ce
+        ;;
+    esac
 }
 aliyun_install() {
 	curl -sSL http://acs-public-mirror.oss-cn-hangzhou.aliyuncs.com/docker-engine/internet | sh -
@@ -31,7 +67,7 @@ daocloud_install() {
 	curl -sSL https://get.daocloud.io/docker | sh
 }
 echo "1) install docker with offical auto install script"
-echo "2) install docker from offical repo"
+echo "2) install docker follow offical manual installation guide"
 echo "3) install docker with aliyun auto install script"
 echo "4) install docker with DaoCloud auto install script"
 read -p "please select install source: " selection
