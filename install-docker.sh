@@ -24,7 +24,7 @@ case $PKG_MANAGER in
     ;;
     apt-get)
         apt-get -y install apt-transport-https ca-certificates curl software-properties-common
-        dpkg --remove   docker-ce \
+        dpkg --purge    docker-ce \
 				        docker \
                         docker-common \
                         container-selinux \
