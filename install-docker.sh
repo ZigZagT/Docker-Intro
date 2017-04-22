@@ -37,6 +37,7 @@ case $PKG_MANAGER in
                stable"
     ;;
 esac
+rm -rf /etc/docker
 
 # install docker
 offical_auto_install() {
