@@ -1,0 +1,906 @@
+{
+  "version": 1,
+  "width": 173,
+  "height": 45,
+  "duration": 59.307106,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.071947,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.374639,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r\u001b]2;master@Earth\u0007\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.002646,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.026761,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000288,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      1.133332,
+      "l"
+    ],
+    [
+      0.223326,
+      "\bls"
+    ],
+    [
+      0.343216,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      3.6e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000731,
+      "\u001b]2;ls -G\u0007\u001b]1;ls\u0007"
+    ],
+    [
+      0.002672,
+      "\u001b[1m\u001b[36mcontainer 1\u001b[39;49m\u001b[0m         \u001b[1m\u001b[36mcontainer 2\u001b[39;49m\u001b[0m         docker-compose.yaml record.json\r\n"
+    ],
+    [
+      0.000201,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r"
+    ],
+    [
+      6.7e-05,
+      "\u001b]2;master@Earth\u0007"
+    ],
+    [
+      1.8e-05,
+      "\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.002747,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.027243,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000107,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.2e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      2.670883,
+      "c"
+    ],
+    [
+      0.175916,
+      "\bca"
+    ],
+    [
+      0.103945,
+      "t"
+    ],
+    [
+      0.16795,
+      " "
+    ],
+    [
+      0.153541,
+      "c"
+    ],
+    [
+      0.078412,
+      "o"
+    ],
+    [
+      0.079995,
+      "n"
+    ],
+    [
+      0.135875,
+      "t"
+    ],
+    [
+      0.302314,
+      "ainer\\ "
+    ],
+    [
+      0.818079,
+      "1"
+    ],
+    [
+      0.63996,
+      "/"
+    ],
+    [
+      0.196132,
+      "Dockerfile\u001b[1m \u001b[0m"
+    ],
+    [
+      0.795262,
+      "\b\u001b[0m \b"
+    ],
+    [
+      5.8e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000585,
+      "\u001b]2;cat container\\ 1/Dockerfile\u0007\u001b]1;cat\u0007"
+    ],
+    [
+      0.002356,
+      "FROM centos\r\n\r\nRUN cp /etc/os-release /root\r\n\r\nCMD cat /root/os-release\r\n"
+    ],
+    [
+      0.000251,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r"
+    ],
+    [
+      6.7e-05,
+      "\u001b]2;master@Earth\u0007"
+    ],
+    [
+      1.7e-05,
+      "\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.00281,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.028294,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m "
+    ],
+    [
+      7.4e-05,
+      "\u001b[K"
+    ],
+    [
+      5.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      4.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.525974,
+      "c"
+    ],
+    [
+      0.175841,
+      "\bca"
+    ],
+    [
+      0.136109,
+      "t"
+    ],
+    [
+      0.208182,
+      " "
+    ],
+    [
+      0.159738,
+      "c"
+    ],
+    [
+      0.120267,
+      "o"
+    ],
+    [
+      0.063969,
+      "n"
+    ],
+    [
+      0.16778,
+      "t"
+    ],
+    [
+      0.20439,
+      "ainer\\ "
+    ],
+    [
+      0.387727,
+      "2"
+    ],
+    [
+      0.528077,
+      "/"
+    ],
+    [
+      0.396214,
+      "Dockerfile\u001b[1m \u001b[0m"
+    ],
+    [
+      1.435102,
+      "\b\u001b[0m \b"
+    ],
+    [
+      2.1e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      6.1e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001362,
+      "\u001b]2;cat container\\ 2/Dockerfile\u0007\u001b]1;cat\u0007"
+    ],
+    [
+      0.002588,
+      "FROM ubuntu\r\n\r\nRUN cp /etc/os-release /root\r\n\r\nCMD cat /root/os-release\r\n"
+    ],
+    [
+      0.000284,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r"
+    ],
+    [
+      9.4e-05,
+      "\u001b]2;master@Earth\u0007"
+    ],
+    [
+      1.7e-05,
+      "\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.003041,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.025759,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000159,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      2.175442,
+      "c"
+    ],
+    [
+      0.183836,
+      "\bca"
+    ],
+    [
+      0.103967,
+      "t"
+    ],
+    [
+      0.295833,
+      " "
+    ],
+    [
+      0.608068,
+      "d"
+    ],
+    [
+      0.128207,
+      "o"
+    ],
+    [
+      0.103856,
+      "c"
+    ],
+    [
+      0.228209,
+      "ker-compose.yaml\u001b[1m \u001b[0m"
+    ],
+    [
+      0.779427,
+      "\b\u001b[0m \b"
+    ],
+    [
+      3.1e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      5.7e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000559,
+      "\u001b]2;cat docker-compose.yaml\u0007\u001b]1;cat\u0007"
+    ],
+    [
+      0.002442,
+      "version: \"3\"\r\nservices:\r\n  demo1:\r\n    build: \"container 1\"\r\n  demo2:\r\n    build: \"container 2\"\r\n  demo3:\r\n    image: \"nginx\"\r\n    ports:\r\n    - \"8080:80\"\r\n"
+    ],
+    [
+      0.000227,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r"
+    ],
+    [
+      0.000116,
+      "\u001b]2;master@Earth\u0007"
+    ],
+    [
+      1.9e-05,
+      "\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.002835,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.026898,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000105,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      7.3e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.727129,
+      "d"
+    ],
+    [
+      0.127789,
+      "\bdo"
+    ],
+    [
+      0.127851,
+      "c"
+    ],
+    [
+      0.152065,
+      "k"
+    ],
+    [
+      0.296709,
+      "er"
+    ],
+    [
+      1.119598,
+      "-"
+    ],
+    [
+      0.231821,
+      "c"
+    ],
+    [
+      0.13601,
+      "o"
+    ],
+    [
+      0.111867,
+      "m"
+    ],
+    [
+      0.182759,
+      "pose\u001b[1m \u001b[0m"
+    ],
+    [
+      0.641653,
+      "\b\u001b[0m u"
+    ],
+    [
+      0.087751,
+      "p"
+    ],
+    [
+      0.175945,
+      " "
+    ],
+    [
+      0.128106,
+      "-"
+    ],
+    [
+      0.103822,
+      "d"
+    ],
+    [
+      0.823523,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2.1e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000642,
+      "\u001b]2;docker-compose up -d\u0007\u001b]1;docker-compose\u0007"
+    ],
+    [
+      0.766398,
+      "Creating network \"dockercompose_default\" with the default driver\r\n"
+    ],
+    [
+      0.132973,
+      "Building demo2\r\n"
+    ],
+    [
+      0.157833,
+      "Step 1/3 : FROM ubuntu\r\n"
+    ],
+    [
+      4.8e-05,
+      " ---> f49eec89601e\r\n"
+    ],
+    [
+      2.5e-05,
+      "Step 2/3 : RUN cp /etc/os-release /root\r\n"
+    ],
+    [
+      0.16847,
+      " ---> Running in 28bc0f1e6ded\r\n"
+    ],
+    [
+      1.173246,
+      " ---> 35353befe744\r\n"
+    ],
+    [
+      0.018807,
+      "Removing intermediate container 28bc0f1e6ded\r\nStep 3/3 : CMD cat /root/os-release\r\n"
+    ],
+    [
+      0.158995,
+      " ---> Running in e71cf46bb0b0\r\n"
+    ],
+    [
+      0.230628,
+      " ---> b66546942af7\r\n"
+    ],
+    [
+      0.018612,
+      "Removing intermediate container e71cf46bb0b0\r\n"
+    ],
+    [
+      0.010337,
+      "Successfully built b66546942af7\r\n"
+    ],
+    [
+      0.001571,
+      "\u001b[33mWARNING\u001b[0m: Image for service demo2 was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.\r\n"
+    ],
+    [
+      0.00731,
+      "Building demo1\r\n"
+    ],
+    [
+      0.122331,
+      "Step 1/3 : FROM centos\r\n"
+    ],
+    [
+      3.5e-05,
+      " ---> a8493f5f50ff\r\n"
+    ],
+    [
+      1.9e-05,
+      "Step 2/3 : RUN cp /etc/os-release /root\r\n"
+    ],
+    [
+      0.158108,
+      " ---> Running in 591526cfb31f\r\n"
+    ],
+    [
+      1.193164,
+      " ---> 9e7410e503bc\r\n"
+    ],
+    [
+      0.018692,
+      "Removing intermediate container 591526cfb31f\r\nStep 3/3 : CMD cat /root/os-release\r\n"
+    ],
+    [
+      0.187552,
+      " ---> Running in a9711b350ef0\r\n"
+    ],
+    [
+      0.262166,
+      " ---> efb716e6659c\r\n"
+    ],
+    [
+      0.019282,
+      "Removing intermediate container a9711b350ef0\r\n"
+    ],
+    [
+      0.010763,
+      "Successfully built efb716e6659c\r\n"
+    ],
+    [
+      0.001038,
+      "\u001b[33mWARNING\u001b[0m: Image for service demo1 was built because it did not already exist. To rebuild this image you must use `docker-compose build` or `docker-compose up --build`.\r\n"
+    ],
+    [
+      0.027745,
+      "Creating dockercompose_demo1_1\r\n"
+    ],
+    [
+      0.002723,
+      "Creating dockercompose_demo2_1\r\n"
+    ],
+    [
+      0.004806,
+      "Creating dockercompose_demo3_1\r\n"
+    ],
+    [
+      1.278706,
+      "\u001b[0m"
+    ],
+    [
+      0.009238,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r"
+    ],
+    [
+      7.8e-05,
+      "\u001b]2;master@Earth\u0007"
+    ],
+    [
+      2e-05,
+      "\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.002954,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.026148,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000164,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.9e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      8.589147,
+      "c"
+    ],
+    [
+      0.215897,
+      "\bcu"
+    ],
+    [
+      0.143956,
+      "r"
+    ],
+    [
+      0.175854,
+      "l"
+    ],
+    [
+      0.271887,
+      " "
+    ],
+    [
+      0.288111,
+      "l"
+    ],
+    [
+      0.200122,
+      "o"
+    ],
+    [
+      0.135892,
+      "c"
+    ],
+    [
+      0.208038,
+      "a"
+    ],
+    [
+      0.208045,
+      "l"
+    ],
+    [
+      0.223896,
+      "h"
+    ],
+    [
+      0.159981,
+      "o"
+    ],
+    [
+      0.167877,
+      "s"
+    ],
+    [
+      0.232223,
+      "t"
+    ],
+    [
+      0.304158,
+      ":"
+    ],
+    [
+      0.399934,
+      "8"
+    ],
+    [
+      0.175868,
+      "0"
+    ],
+    [
+      0.199916,
+      "8"
+    ],
+    [
+      0.145129,
+      "0"
+    ],
+    [
+      0.286469,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2.1e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000611,
+      "\u001b]2;curl localhost:8080\u0007\u001b]1;curl\u0007"
+    ],
+    [
+      0.02708,
+      "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<title>Welcome to nginx!</title>\r\n<style>\r\n    body {\r\n        width: 35em;\r\n        margin: 0 auto;\r\n        font-family: Tahoma, Verdana, Arial, sans-serif;\r\n    }\r\n</style>\r\n</head>\r\n<body>\r\n<h1>Welcome to nginx!</h1>\r\n<p>If you see this page, the nginx web server is successfully installed and\r\nworking. Further configuration is required.</p>\r\n\r\n<p>For online documentation and support please refer to\r\n<a href=\"http://nginx.org/\">nginx.org</a>.<br/>\r\nCommercial support is available at\r\n<a href=\"http://nginx.com/\">nginx.com</a>.</p>\r\n\r\n<p><em>Thank you for using nginx.</em></p>\r\n</body>\r\n</html>\r\n"
+    ],
+    [
+      0.001685,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r"
+    ],
+    [
+      8.5e-05,
+      "\u001b]2;master@Earth\u0007"
+    ],
+    [
+      2.9e-05,
+      "\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.002853,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.027235,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000158,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.5e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      3.40481,
+      "d"
+    ],
+    [
+      0.119827,
+      "\bdo"
+    ],
+    [
+      0.136206,
+      "c"
+    ],
+    [
+      0.128059,
+      "k"
+    ],
+    [
+      0.191867,
+      "e"
+    ],
+    [
+      0.071989,
+      "r"
+    ],
+    [
+      0.608142,
+      "-"
+    ],
+    [
+      0.16775,
+      "c"
+    ],
+    [
+      0.09595,
+      "o"
+    ],
+    [
+      0.12007,
+      "m"
+    ],
+    [
+      0.175902,
+      "p"
+    ],
+    [
+      0.080088,
+      "o"
+    ],
+    [
+      0.175836,
+      "s"
+    ],
+    [
+      0.16818,
+      "e"
+    ],
+    [
+      0.560144,
+      " "
+    ],
+    [
+      0.183997,
+      "d"
+    ],
+    [
+      0.111964,
+      "o"
+    ],
+    [
+      0.144036,
+      "w"
+    ],
+    [
+      0.095708,
+      "n"
+    ],
+    [
+      0.647611,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2.1e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000587,
+      "\u001b]2;docker-compose down\u0007\u001b]1;docker-compose\u0007"
+    ],
+    [
+      0.735397,
+      "Stopping dockercompose_demo3_1 ... \r\r\n"
+    ],
+    [
+      0.699031,
+      "\u001b[1A\u001b[2K\rStopping dockercompose_demo3_1 ... done\r\u001b[1B"
+    ],
+    [
+      0.023955,
+      "Removing dockercompose_demo3_1 ... \r\r\nRemoving dockercompose_demo2_1 ... \r\r\nRemoving dockercompose_demo1_1 ... \r\r\n"
+    ],
+    [
+      0.040021,
+      "\u001b[2A\u001b[2K\rRemoving dockercompose_demo2_1 ... done\r\u001b[2B"
+    ],
+    [
+      0.007966,
+      "\u001b[3A\u001b[2K\rRemoving dockercompose_demo3_1 ... done\r\u001b[3B"
+    ],
+    [
+      9.5e-05,
+      "\u001b[1A\u001b[2K\rRemoving dockercompose_demo1_1 ... done\r\u001b[1B"
+    ],
+    [
+      0.00017,
+      "Removing network dockercompose_default\r\n"
+    ],
+    [
+      0.245196,
+      "\u001b[0m"
+    ],
+    [
+      0.009123,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r"
+    ],
+    [
+      8e-05,
+      "\u001b]2;master@Earth\u0007"
+    ],
+    [
+      1.9e-05,
+      "\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.002889,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.026276,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      5.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      6.1e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.473796,
+      "docker-compose down"
+    ],
+    [
+      0.167323,
+      "\u001b[19Dcurl localh\u001b[2Ct:8080"
+    ],
+    [
+      0.839895,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      2.1e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000625,
+      "\u001b]2;curl localhost:8080\u0007\u001b]1;curl\u0007"
+    ],
+    [
+      0.020795,
+      "curl: (7) Failed to connect to localhost port 8080: Connection re"
+    ],
+    [
+      2.7e-05,
+      "fused\r\n"
+    ],
+    [
+      0.000842,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                            \r \r"
+    ],
+    [
+      9.7e-05,
+      "\u001b]2;master@Earth\u0007"
+    ],
+    [
+      1.9e-05,
+      "\u001b]1;..ocker compose\u0007"
+    ],
+    [
+      0.002772,
+      "\u001b]7;file://Earth.local/Users/master/GitHub/Docker-Intro/demo/docker%20compose\u0007"
+    ],
+    [
+      0.030783,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m➜  \u001b[36mdocker compose\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      7.6e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      6.6e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      3.688434,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

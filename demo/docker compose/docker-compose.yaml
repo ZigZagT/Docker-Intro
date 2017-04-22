@@ -1,0 +1,10 @@
+version: "3"
+services:
+  demo1:
+    build: "container 1"
+  demo2:
+    build: "container 2"
+  demo3:
+    image: "nginx"
+    ports:
+    - "8080:80"
