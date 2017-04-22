@@ -69,7 +69,7 @@ daocloud_install() {
 	curl -sSL https://get.daocloud.io/docker | sh
 }
 echo "1) install docker with offical auto install script"
-echo "2) install docker follow offical manual installation guide"
+echo "2) install docker following offical manual installation guide"
 echo "3) install docker with aliyun auto install script"
 echo "4) install docker with DaoCloud auto install script"
 read -p "please select install source: " selection
