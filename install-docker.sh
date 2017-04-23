@@ -68,22 +68,16 @@ aliyun_install() {
 daocloud_install() {
 	curl -sSL https://get.daocloud.io/docker | sh
 }
-centos6_install() {
-    yum install -y epel-release
-    yum install -y docker-io docker
-}
 echo "1) install docker with offical auto install script"
 echo "2) install docker following offical manual installation guide"
 echo "3) install docker with aliyun auto install script"
 echo "4) install docker with DaoCloud auto install script"
-echo "5) install docker for centos 6"
 read -p "please select install source: " selection
 case $selection in
     1) offical_auto_install;;
     2) official_manual_install;;
 	3) aliyun_install;;
 	4) daocloud_install;;
-	5) centos6_install;;
     *) echo "must select install source"; exit 1;;
 esac
 
